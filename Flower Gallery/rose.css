@@ -1,0 +1,26 @@
+body{
+   background-image: url("kseniya-lapteva-6JgOnrS9REY-unsplash.jpg");
+   background-size: 100% 100%;
+   min-height: 100vh;
+}
+.carousel-item{
+    height: 500px;
+    width: 500px;
+}
+.rose-red{
+    object-fit: cover;
+}
+.rose-icon{
+    height: 40px;
+    width: 40px;
+}
+.col-lg-4{
+    margin-bottom: 120px;
+}
+.row{
+    padding: 50px;
+}
+.rose-pic{
+    height: 400px;
+    width: 400px;
+}

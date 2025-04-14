@@ -1,0 +1,134 @@
+html, body{
+    height: 100vh;
+    background-image: url("anna-sullivan-ARrM9jUl780-unsplash.jpg"); 
+    direction: ltr;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#heading{
+    text-align: center;
+    width: auto;
+    background-color: black ;
+    border: 1px solid black;
+    color: wheat;
+    box-shadow: 2px 2px rgb(71, 71, 71);
+    font-size: 3rem;
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    font-family: 'Meie Script', 'Times New Roman', Times, serif;
+}
+
+.section{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, AUTO);
+    gap: 5px;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+.title-card{
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clock-container{
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    backdrop-filter: blur(0.5px);
+    color: white;
+    opacity: 0.8;
+    width: 150px;
+    
+}
+.rose{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.rose:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.lilly{
+    height: 400px;
+    width: 400px;
+    
+}
+.lilly:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.iris{
+    height: 400px;
+    width: 400px;
+    justify-self:self-start;
+}
+.iris:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.tulip{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    padding-left: 0;
+}
+.tulip:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.lotus{
+    height: 400px;
+    width: 400px;
+}
+.lotus:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.moonflower{
+    height: 400px;
+    width: 400px;
+}
+.moonflower:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   
+}
+
+.photo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 5%;
+}
+@media (min-width: 300px){
+    body{
+        background-color: antiquewhite;
+    }
+}

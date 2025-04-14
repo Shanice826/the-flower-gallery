@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    height: 400px;
+    width: 400px;
+}
+.photo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+p{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}

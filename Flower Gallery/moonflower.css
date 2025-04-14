@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.moonflower{
+    width: 400px;
+    height: 400px;
+}
+.moonflower:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-top: 25px;
+}
+.paragraph{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
